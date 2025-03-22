@@ -1,0 +1,28 @@
+<div class="dashboard-container">
+  <!-- Navbar -->
+  <div class="navbar">
+    <img src="logo4.png" alt="Logo" class="logo">
+    <button class="logout-btn" (click)="logout()">Déconnexion</button>
+  </div>
+
+  <!-- Sidebar et Contenu Principal -->
+  <div class="main-content">
+    <!-- Sidebar -->
+    <aside class="sidebar" [class.collapsed]="isSidebarCollapsed">
+      <button class="toggle-btn" (click)="toggleSidebar()">
+        <i class="fas fa-bars"></i> <!-- Icône de menu (Font Awesome) -->
+      </button>
+      <ul>
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/upload">Upload File</a></li>
+      </ul>
+    </aside>
+
+    <!-- Contenu Principal -->
+    <div class="content">
+      <h2>Dashboard</h2>
+      <p>Bienvenue sur votre tableau de bord.</p>
+    </div>
+  </div>
+</div>

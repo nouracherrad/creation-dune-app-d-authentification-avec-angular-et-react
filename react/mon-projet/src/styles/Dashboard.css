@@ -1,0 +1,29 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%; /* Ajoutez cette ligne pour que le conteneur prenne toute la largeur */
+  margin: 0; /* Supprimez les marges par défaut */
+  padding: 0; /* Supprimez les paddings par défaut */
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.content p {
+  color: #555;
+}
