@@ -1,7 +1,4 @@
-![image](https://github.com/user-attachments/assets/f539911e-57cc-4ded-948a-6b79d00d32ac)
----
 
-```markdown
 # TP : Application d'Authentification avec Angular et React.js
 
 Ce TP consiste à développer une application web permettant la gestion de l'authentification des utilisateurs. L'application doit implémenter les fonctionnalités suivantes :
@@ -233,11 +230,3 @@ json-server/
 
 - Ce projet est conçu à des fins éducatives pour comparer Angular et React.
 - JSON Server est utilisé pour simuler une API REST. Pour une application en production, utilisez un backend réel.
-
----
-
-```
-
----
-
-Cette version du `README.md` ne contient pas de section **Licence**. Vous pouvez l'utiliser directement pour votre projet. 😊
